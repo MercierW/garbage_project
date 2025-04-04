@@ -91,3 +91,7 @@ input:focus {
     outline: 2px solid #007bff;
     /* Ajout d'une bordure sur les éléments focusés */
 }
+
+li{
+    list-style: none;
+}
