@@ -1,0 +1,134 @@
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fce3e3;
+    /* Fond rose pâle, rappelant les bonbons */
+    color: #333;
+    background-image: url('https://www.example.com/sweet-background.jpg');
+    /* Image de fond sucrée (bonbons, confiseries) */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: #ff80b3;
+    /* Rose bonbon */
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #ff3399;
+    /* Rose plus foncé pour le contraste */
+    box-shadow: 0px 5px 15px rgba(255, 51, 153, 0.5);
+    /* Ombre douce pour un effet sucré */
+}
+
+header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #fff;
+    /* Couleur du texte */
+    text-shadow: 3px 3px 0 #ff4d94, -3px -3px 0 #ff4d94, 3px -3px 0 #ff4d94, -3px 3px 0 #ff4d94;
+    /* Contour rose foncé */
+}
+
+
+/* Main Section */
+main {
+    padding: 40px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        width: 45rem;
+    }
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff3399;
+    /* Rose bonbon foncé */
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+}
+
+figure {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff0f5;
+    /* Couleur douce pour l'effet sucré */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 51, 153, 0.2);
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+    border: 5px solid #ffb3d9;
+    /* Bordure rose bonbon */
+    box-shadow: 0px 0px 15px rgba(255, 51, 153, 0.4);
+}
+
+figcaption {
+    margin-top: 15px;
+    background-color: rgba(255, 204, 204, 0.7);
+    /* Rose clair pour un look sucré */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+figcaption h2 {
+    font-size: 2em;
+    color: #ff3399;
+}
+
+figcaption ul {
+    font-size: 1.1em;
+    color: #ff66b2;
+}
+
+/* Footer */
+footer {
+    background-color: #ff80b3;
+    /* Rose bonbon */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+footer time {
+    color: #ffb3d9;
+}
